@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Ident(Ident { span: 345835..345840, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 345843..345844, value: 1.0, raw: Some("1") }))
-start:345835,end:345844
+operation:"+","accAdd",left:Ident(Ident { span: 439492..439497, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 439500..439501, value: 1.0, raw: Some("1") }))
+start:439492,end:439501

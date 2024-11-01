@@ -1,4 +1,4 @@
-operation:"+=","accAdd",left:BytePos(510739),right:BytePos(510739)
-start:510739,end:510745
-operation:"-","accSub",left:Member(MemberExpr { span: 534668..534680, obj: Ident(Ident { span: 534668..534673, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 534674..534680, sym: "length" }) }),right:Call(CallExpr { span: 534683..534701, ctxt: #0, callee: Expr(Member(MemberExpr { span: 534683..534696, obj: Ident(Ident { span: 534683..534688, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 534689..534696, sym: "indexOf" }) })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 534697..534700, value: ".", raw: Some("'.'") })) }], type_args: None })
-start:534668,end:534701
+operation:"+=","accAdd",left:BytePos(793812),right:BytePos(793812)
+start:793812,end:793818
+operation:"-","accSub",left:Member(MemberExpr { span: 817741..817753, obj: Ident(Ident { span: 817741..817746, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 817747..817753, sym: "length" }) }),right:Call(CallExpr { span: 817756..817774, ctxt: #0, callee: Expr(Member(MemberExpr { span: 817756..817769, obj: Ident(Ident { span: 817756..817761, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 817762..817769, sym: "indexOf" }) })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 817770..817773, value: ".", raw: Some("'.'") })) }], type_args: None })
+start:817741,end:817774

@@ -1,4 +1,4 @@
-operation:"*","accMul",left:Lit(Num(Number { span: 4032977..4032981, value: 1024.0, raw: Some("1024") })),right:Lit(Num(Number { span: 4032984..4032988, value: 1024.0, raw: Some("1024") }))
-start:4032977,end:4032988
-operation:"*","accMul",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accMul", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 4032977..4032981, value: 1024.0, raw: Some("1024") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 4032984..4032988, value: 1024.0, raw: Some("1024") })) }], type_args: None }),right:Lit(Num(Number { span: 4032991..4032994, value: 300.0, raw: Some("300") }))
-start:4032977,end:4032994
+operation:"*","accMul",left:Lit(Num(Number { span: 3989355..3989359, value: 1024.0, raw: Some("1024") })),right:Lit(Num(Number { span: 3989362..3989366, value: 1024.0, raw: Some("1024") }))
+start:3989355,end:3989366
+operation:"*","accMul",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accMul", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3989355..3989359, value: 1024.0, raw: Some("1024") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3989362..3989366, value: 1024.0, raw: Some("1024") })) }], type_args: None }),right:Lit(Num(Number { span: 3989369..3989372, value: 300.0, raw: Some("300") }))
+start:3989355,end:3989372

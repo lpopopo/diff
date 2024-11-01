@@ -1,6 +1,6 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 552334..552351, obj: Ident(Ident { span: 552334..552344, ctxt: #12, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 552345..552351, sym: "length" }) }),right:Lit(Num(Number { span: 552354..552355, value: 1.0, raw: Some("1") }))
-start:552334,end:552355
-operation:"-","accSub",left:Member(MemberExpr { span: 554344..554352, obj: Ident(Ident { span: 554344..554345, ctxt: #24, sym: "t", optional: false }), prop: Ident(IdentName { span: 554346..554352, sym: "length" }) }),right:Lit(Num(Number { span: 554355..554356, value: 1.0, raw: Some("1") }))
-start:554344,end:554356
-operation:"+=","accAdd",left:BytePos(555136),right:BytePos(555136)
-start:555136,end:555160
+operation:"-","accSub",left:Member(MemberExpr { span: 890366..890383, obj: Ident(Ident { span: 890366..890376, ctxt: #12, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 890377..890383, sym: "length" }) }),right:Lit(Num(Number { span: 890386..890387, value: 1.0, raw: Some("1") }))
+start:890366,end:890387
+operation:"-","accSub",left:Member(MemberExpr { span: 892376..892384, obj: Ident(Ident { span: 892376..892377, ctxt: #24, sym: "t", optional: false }), prop: Ident(IdentName { span: 892378..892384, sym: "length" }) }),right:Lit(Num(Number { span: 892387..892388, value: 1.0, raw: Some("1") }))
+start:892376,end:892388
+operation:"+=","accAdd",left:BytePos(893168),right:BytePos(893168)
+start:893168,end:893192
