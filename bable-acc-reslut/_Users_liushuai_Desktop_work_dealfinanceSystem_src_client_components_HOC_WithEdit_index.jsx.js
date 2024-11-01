@@ -1,11 +1,5 @@
-accDiv,start:4486,end:4497
-accMul,start:5219,end:5275
-accMul,start:5963,end:5986
-accDiv,start:6033,end:6047
-accMul,start:6600,end:6656
-accMul,start:6865,end:6888
-accDiv,start:6935,end:6949
-accMul,start:7502,end:7558
-accMul,start:7857,end:7880
-accMul,start:8016,end:8039
-accMul,start:8527,end:8583
+"accDiv",start:482753,end:482764
+"accMul",start:484410,end:484433
+"accMul",start:485414,end:485437
+"accMul",start:486512,end:486535
+"accMul",start:486675,end:486698

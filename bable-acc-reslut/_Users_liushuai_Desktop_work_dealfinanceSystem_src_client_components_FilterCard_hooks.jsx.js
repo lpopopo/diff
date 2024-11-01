@@ -1,4 +1,3 @@
-accAdd,start:6215,end:6221
-accAdd,start:10379,end:10385
-accSub,start:10515,end:10521
-accAdd,start:11285,end:11299
+"accAdd",start:284588,end:284594
+"accAdd",start:288752,end:288758
+"accSub",start:288888,end:288894

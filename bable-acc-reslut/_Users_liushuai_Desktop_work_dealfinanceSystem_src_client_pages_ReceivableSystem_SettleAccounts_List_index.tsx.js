@@ -1,15 +1,2 @@
-accSub,start:1342,end:1363
-accAdd,start:1672,end:1696
-accAdd,start:12484,end:12530
-accMul,start:13635,end:13702
-accMul,start:13722,end:13745
-accMul,start:13763,end:13786
-accMul,start:13852,end:13875
-accMul,start:13943,end:13966
-accDiv,start:14077,end:14091
-accAdd,start:14033,end:14103
-accAdd,start:14033,end:14110
-accDiv,start:14114,end:14128
-accAdd,start:14033,end:14140
-accAdd,start:14033,end:14146
-accDiv,start:14792,end:14803
+"accSub",start:206492,end:206513
+"accAdd",start:206822,end:206846

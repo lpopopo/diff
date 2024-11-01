@@ -1,10 +1,2 @@
-accAdd,start:3542,end:3548
-accMul,start:3599,end:3619
-accAdd,start:11049,end:11058
-accAdd,start:11126,end:11135
-accAdd,start:13031,end:13058
-accAdd,start:15381,end:15420
-accDiv,start:15516,end:15529
-accSub,start:26596,end:26612
-accSub,start:26871,end:26904
-accAdd,start:27069,end:27091
+"accAdd",start:1110651,end:1110657
+"accSub",start:1134580,end:1134613
