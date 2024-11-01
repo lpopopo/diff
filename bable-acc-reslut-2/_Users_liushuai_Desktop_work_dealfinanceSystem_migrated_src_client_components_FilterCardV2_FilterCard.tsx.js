@@ -1,2 +1,2 @@
-accAdd,start:1359,end:1365
-accSub,start:1477,end:1483
+operation:+=,accAdd,start:30,end:30
+operation:-=,accSub,start:34,end:34
