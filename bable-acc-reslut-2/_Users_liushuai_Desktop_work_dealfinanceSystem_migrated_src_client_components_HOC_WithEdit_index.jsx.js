@@ -1,5 +1,10 @@
-"accDiv",start:3974593,end:3974604
-"accMul",start:3976250,end:3976273
-"accMul",start:3977254,end:3977277
-"accMul",start:3978352,end:3978375
-"accMul",start:3978515,end:3978538
+operation:"/","accDiv",left:Ident(Ident { span: 3940337..3940342, ctxt: #23, sym: "value", optional: false }),right:Lit(Num(Number { span: 3940345..3940348, value: 100.0, raw: Some("100") }))
+start:3940337,end:3940348
+operation:"*","accMul",left:Call(CallExpr { span: 3941994..3942011, ctxt: #0, callee: Expr(Ident(Ident { span: 3941994..3942004, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3942005..3942010, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3942014..3942017, value: 100.0, raw: Some("100") }))
+start:3941994,end:3942017
+operation:"*","accMul",left:Call(CallExpr { span: 3942998..3943015, ctxt: #0, callee: Expr(Ident(Ident { span: 3942998..3943008, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3943009..3943014, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3943018..3943021, value: 100.0, raw: Some("100") }))
+start:3942998,end:3943021
+operation:"*","accMul",left:Call(CallExpr { span: 3944096..3944113, ctxt: #0, callee: Expr(Ident(Ident { span: 3944096..3944106, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3944107..3944112, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3944116..3944119, value: 100.0, raw: Some("100") }))
+start:3944096,end:3944119
+operation:"*","accMul",left:Call(CallExpr { span: 3944259..3944276, ctxt: #0, callee: Expr(Ident(Ident { span: 3944259..3944269, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3944270..3944275, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3944279..3944282, value: 100.0, raw: Some("100") }))
+start:3944259,end:3944282

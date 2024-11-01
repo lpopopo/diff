@@ -1,6 +1,12 @@
-"accAdd",start:1750317,end:1750343
-"accDiv",start:1755761,end:1755772
-"accMul",start:1758058,end:1758081
-"accMul",start:1759190,end:1759213
-"accMul",start:1760399,end:1760422
-"accMul",start:1760526,end:1760549
+operation:"+","accAdd",left:Member(MemberExpr { span: 2446489..2446511, obj: Member(MemberExpr { span: 2446489..2446504, obj: Ident(Ident { span: 2446489..2446495, ctxt: #53, sym: "record", optional: false }), prop: Ident(IdentName { span: 2446496..2446504, sym: "children" }) }), prop: Ident(IdentName { span: 2446505..2446511, sym: "length" }) }),right:Lit(Num(Number { span: 2446514..2446515, value: 1.0, raw: Some("1") }))
+start:2446489,end:2446515
+operation:"/","accDiv",left:Ident(Ident { span: 2451933..2451938, ctxt: #71, sym: "value", optional: false }),right:Lit(Num(Number { span: 2451941..2451944, value: 100.0, raw: Some("100") }))
+start:2451933,end:2451944
+operation:"*","accMul",left:Call(CallExpr { span: 2454230..2454247, ctxt: #0, callee: Expr(Ident(Ident { span: 2454230..2454240, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2454241..2454246, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2454250..2454253, value: 100.0, raw: Some("100") }))
+start:2454230,end:2454253
+operation:"*","accMul",left:Call(CallExpr { span: 2455362..2455379, ctxt: #0, callee: Expr(Ident(Ident { span: 2455362..2455372, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2455373..2455378, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2455382..2455385, value: 100.0, raw: Some("100") }))
+start:2455362,end:2455385
+operation:"*","accMul",left:Call(CallExpr { span: 2456571..2456588, ctxt: #0, callee: Expr(Ident(Ident { span: 2456571..2456581, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2456582..2456587, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2456591..2456594, value: 100.0, raw: Some("100") }))
+start:2456571,end:2456594
+operation:"*","accMul",left:Call(CallExpr { span: 2456698..2456715, ctxt: #0, callee: Expr(Ident(Ident { span: 2456698..2456708, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2456709..2456714, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2456718..2456721, value: 100.0, raw: Some("100") }))
+start:2456698,end:2456721

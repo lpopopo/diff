@@ -1,4 +1,8 @@
-"accAdd",start:3765375,end:3765394
-"accAdd",start:3765375,end:3765416
-"accAdd",start:3765447,end:3765466
-"accAdd",start:3765447,end:3765488
+operation:"+","accAdd",left:Lit(Str(Str { span: 3869529..3869540, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3869543..3869548, ctxt: #8, sym: "index", optional: false })
+start:3869529,end:3869548
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3869529..3869540, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3869543..3869548, ctxt: #8, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3869551..3869570, value: "][paramValue.min]", raw: Some("\"][paramValue.min]\"") }))
+start:3869529,end:3869570
+operation:"+","accAdd",left:Lit(Str(Str { span: 3869601..3869612, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3869615..3869620, ctxt: #8, sym: "index", optional: false })
+start:3869601,end:3869620
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3869601..3869612, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3869615..3869620, ctxt: #8, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3869623..3869642, value: "][paramValue.max]", raw: Some("\"][paramValue.max]\"") }))
+start:3869601,end:3869642

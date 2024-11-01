@@ -1,22 +1,44 @@
-"accAdd",start:3556775,end:3556791
-"accAdd",start:3556775,end:3556797
-"accAdd",start:3556994,end:3557032
-"accAdd",start:3556994,end:3557073
-"accAdd",start:3557101,end:3557139
-"accAdd",start:3557101,end:3557158
-"accAdd",start:3561936,end:3561974
-"accAdd",start:3561936,end:3562011
-"accAdd",start:3562035,end:3562073
-"accAdd",start:3562035,end:3562114
-"accAdd",start:3565465,end:3565503
-"accAdd",start:3565465,end:3565540
-"accAdd",start:3565568,end:3565606
-"accAdd",start:3565568,end:3565621
-"accAdd",start:3568958,end:3568989
-"accAdd",start:3568958,end:3569026
-"accAdd",start:3570335,end:3570366
-"accAdd",start:3570335,end:3570403
-"accAdd",start:3572950,end:3572965
-"accAdd",start:3572950,end:3572976
-"accAdd",start:3573309,end:3573350
-"accAdd",start:3573309,end:3573361
+operation:"+","accAdd",left:Ident(Ident { span: 3590601..3590606, ctxt: #13, sym: "start", optional: false }),right:Lit(Str(Str { span: 3590609..3590617, value: "至", raw: Some("\"\\u81F3\"") }))
+start:3590601,end:3590617
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3590601..3590606, ctxt: #13, sym: "start", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3590609..3590617, value: "至", raw: Some("\"\\u81F3\"") })) }], type_args: None }),right:Ident(Ident { span: 3590620..3590623, ctxt: #13, sym: "end", optional: false })
+start:3590601,end:3590623
+operation:"+","accAdd",left:Lit(Str(Str { span: 3590820..3590846, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3590849..3590858, obj: Ident(Ident { span: 3590849..3590855, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 3590856..3590858, sym: "id" }) })
+start:3590820,end:3590858
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3590820..3590846, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3590849..3590858, obj: Ident(Ident { span: 3590849..3590855, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 3590856..3590858, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3590861..3590899, value: "].distributorPersonMarkingResultTemp", raw: Some("\"].distributorPersonMarkingResultTemp\"") }))
+start:3590820,end:3590899
+operation:"+","accAdd",left:Lit(Str(Str { span: 3590927..3590953, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3590956..3590965, obj: Ident(Ident { span: 3590956..3590962, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 3590963..3590965, sym: "id" }) })
+start:3590927,end:3590965
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3590927..3590953, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3590956..3590965, obj: Ident(Ident { span: 3590956..3590962, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 3590963..3590965, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3590968..3590984, value: "].editTypeTemp", raw: Some("\"].editTypeTemp\"") }))
+start:3590927,end:3590984
+operation:"+","accAdd",left:Lit(Str(Str { span: 3595762..3595788, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3595791..3595800, obj: Ident(Ident { span: 3595791..3595797, ctxt: #21, sym: "record", optional: false }), prop: Ident(IdentName { span: 3595798..3595800, sym: "id" }) })
+start:3595762,end:3595800
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3595762..3595788, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3595791..3595800, obj: Ident(Ident { span: 3595791..3595797, ctxt: #21, sym: "record", optional: false }), prop: Ident(IdentName { span: 3595798..3595800, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3595803..3595837, value: "].distributorPersonMarkingResult", raw: Some("\"].distributorPersonMarkingResult\"") }))
+start:3595762,end:3595837
+operation:"+","accAdd",left:Lit(Str(Str { span: 3595861..3595887, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3595890..3595899, obj: Ident(Ident { span: 3595890..3595896, ctxt: #21, sym: "record", optional: false }), prop: Ident(IdentName { span: 3595897..3595899, sym: "id" }) })
+start:3595861,end:3595899
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3595861..3595887, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3595890..3595899, obj: Ident(Ident { span: 3595890..3595896, ctxt: #21, sym: "record", optional: false }), prop: Ident(IdentName { span: 3595897..3595899, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3595902..3595940, value: "].distributorPersonMarkingResultTemp", raw: Some("\"].distributorPersonMarkingResultTemp\"") }))
+start:3595861,end:3595940
+operation:"+","accAdd",left:Lit(Str(Str { span: 3599291..3599317, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3599320..3599329, obj: Ident(Ident { span: 3599320..3599326, ctxt: #26, sym: "record", optional: false }), prop: Ident(IdentName { span: 3599327..3599329, sym: "id" }) })
+start:3599291,end:3599329
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3599291..3599317, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3599320..3599329, obj: Ident(Ident { span: 3599320..3599326, ctxt: #26, sym: "record", optional: false }), prop: Ident(IdentName { span: 3599327..3599329, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3599332..3599366, value: "].distributorPersonMarkingResult", raw: Some("\"].distributorPersonMarkingResult\"") }))
+start:3599291,end:3599366
+operation:"+","accAdd",left:Lit(Str(Str { span: 3599394..3599420, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Member(MemberExpr { span: 3599423..3599432, obj: Ident(Ident { span: 3599423..3599429, ctxt: #26, sym: "record", optional: false }), prop: Ident(IdentName { span: 3599430..3599432, sym: "id" }) })
+start:3599394,end:3599432
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3599394..3599420, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3599423..3599432, obj: Ident(Ident { span: 3599423..3599429, ctxt: #26, sym: "record", optional: false }), prop: Ident(IdentName { span: 3599430..3599432, sym: "id" }) }) }], type_args: None }),right:Lit(Str(Str { span: 3599435..3599447, value: "].editType", raw: Some("\"].editType\"") }))
+start:3599394,end:3599447
+operation:"+","accAdd",left:Lit(Str(Str { span: 3602784..3602810, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Ident(Ident { span: 3602813..3602815, ctxt: #30, sym: "id", optional: false })
+start:3602784,end:3602815
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3602784..3602810, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3602813..3602815, ctxt: #30, sym: "id", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3602818..3602852, value: "].distributorPersonMarkingResult", raw: Some("\"].distributorPersonMarkingResult\"") }))
+start:3602784,end:3602852
+operation:"+","accAdd",left:Lit(Str(Str { span: 3604161..3604187, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })),right:Ident(Ident { span: 3604190..3604192, ctxt: #32, sym: "id", optional: false })
+start:3604161,end:3604192
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3604161..3604187, value: "distributorMarkInfoList[", raw: Some("\"distributorMarkInfoList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3604190..3604192, ctxt: #32, sym: "id", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3604195..3604229, value: "].distributorPersonMarkingResult", raw: Some("\"].distributorPersonMarkingResult\"") }))
+start:3604161,end:3604229
+operation:"+","accAdd",left:Lit(Str(Str { span: 3606776..3606784, value: "【", raw: Some("\"\\u3010\"") })),right:Ident(Ident { span: 3606787..3606791, ctxt: #33, sym: "text", optional: false })
+start:3606776,end:3606791
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3606776..3606784, value: "【", raw: Some("\"\\u3010\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3606787..3606791, ctxt: #33, sym: "text", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3606794..3606802, value: "】", raw: Some("\"\\u3011\"") }))
+start:3606776,end:3606802
+operation:"+","accAdd",left:Lit(Str(Str { span: 3607135..3607143, value: "【", raw: Some("\"\\u3010\"") })),right:Ident(Ident { span: 3607146..3607176, ctxt: #33, sym: "distributorPersonMarkingResult", optional: false })
+start:3607135,end:3607176
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3607135..3607143, value: "【", raw: Some("\"\\u3010\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3607146..3607176, ctxt: #33, sym: "distributorPersonMarkingResult", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3607179..3607187, value: "】", raw: Some("\"\\u3011\"") }))
+start:3607135,end:3607187

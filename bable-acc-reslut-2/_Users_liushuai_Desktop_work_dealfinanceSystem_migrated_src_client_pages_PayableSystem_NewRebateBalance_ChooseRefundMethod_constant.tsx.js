@@ -1,2 +1,4 @@
-"accSub",start:2315351,end:2315363
-"accAdd",start:2317856,end:2317878
+operation:"-","accSub",left:Member(MemberExpr { span: 2946185..2946193, obj: Ident(Ident { span: 2946185..2946186, ctxt: #17, sym: "t", optional: false }), prop: Ident(IdentName { span: 2946187..2946193, sym: "length" }) }),right:Lit(Num(Number { span: 2946196..2946197, value: 1.0, raw: Some("1") }))
+start:2946185,end:2946197
+operation:"+","accAdd",left:Lit(Str(Str { span: 2948690..2948692, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2948695..2948712, obj: Ident(Ident { span: 2948695..2948698, ctxt: #32, sym: "row", optional: false }), prop: Ident(IdentName { span: 2948699..2948712, sym: "customer_name" }) })
+start:2948690,end:2948712

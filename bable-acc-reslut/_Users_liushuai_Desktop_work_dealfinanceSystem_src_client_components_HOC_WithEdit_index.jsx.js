@@ -1,5 +1,10 @@
-"accDiv",start:482753,end:482764
-"accMul",start:484410,end:484433
-"accMul",start:485414,end:485437
-"accMul",start:486512,end:486535
-"accMul",start:486675,end:486698
+operation:"/","accDiv",left:Ident(Ident { span: 426241..426246, ctxt: #23, sym: "value", optional: false }),right:Lit(Num(Number { span: 426249..426252, value: 100.0, raw: Some("100") }))
+start:426241,end:426252
+operation:"*","accMul",left:Call(CallExpr { span: 427898..427915, ctxt: #0, callee: Expr(Ident(Ident { span: 427898..427908, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 427909..427914, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 427918..427921, value: 100.0, raw: Some("100") }))
+start:427898,end:427921
+operation:"*","accMul",left:Call(CallExpr { span: 428902..428919, ctxt: #0, callee: Expr(Ident(Ident { span: 428902..428912, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 428913..428918, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 428922..428925, value: 100.0, raw: Some("100") }))
+start:428902,end:428925
+operation:"*","accMul",left:Call(CallExpr { span: 430000..430017, ctxt: #0, callee: Expr(Ident(Ident { span: 430000..430010, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 430011..430016, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 430020..430023, value: 100.0, raw: Some("100") }))
+start:430000,end:430023
+operation:"*","accMul",left:Call(CallExpr { span: 430163..430180, ctxt: #0, callee: Expr(Ident(Ident { span: 430163..430173, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 430174..430179, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 430183..430186, value: 100.0, raw: Some("100") }))
+start:430163,end:430186

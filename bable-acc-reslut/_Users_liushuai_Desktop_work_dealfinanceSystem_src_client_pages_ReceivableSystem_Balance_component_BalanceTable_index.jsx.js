@@ -1,8 +1,16 @@
-"accAdd",start:330810,end:330819
-"accDiv",start:334114,end:334125
-"accSub",start:335187,end:335250
-"accMul",start:335688,end:335711
-"accMul",start:335995,end:336018
-"accDiv",start:336041,end:336104
-"accSub",start:336284,end:336335
-"accSub",start:336284,end:336367
+operation:"+","accAdd",left:Ident(Ident { span: 402846..402851, ctxt: #25, sym: "index", optional: false }),right:Lit(Num(Number { span: 402854..402855, value: 1.0, raw: Some("1") }))
+start:402846,end:402855
+operation:"/","accDiv",left:Ident(Ident { span: 406150..406155, ctxt: #39, sym: "value", optional: false }),right:Lit(Num(Number { span: 406158..406161, value: 100.0, raw: Some("100") }))
+start:406150,end:406161
+operation:"-","accSub",left:Member(MemberExpr { span: 407223..407248, obj: Ident(Ident { span: 407223..407235, ctxt: #44, sym: "$balanceList", optional: false }), prop: Ident(IdentName { span: 407236..407248, sym: "post_payment" }) }),right:Member(MemberExpr { span: 407251..407286, obj: Ident(Ident { span: 407251..407263, ctxt: #44, sym: "$balanceList", optional: false }), prop: Ident(IdentName { span: 407264..407286, sym: "already_balance_amount" }) })
+start:407223,end:407286
+operation:"*","accMul",left:Call(CallExpr { span: 407724..407741, ctxt: #0, callee: Expr(Ident(Ident { span: 407724..407734, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 407735..407740, ctxt: #44, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 407744..407747, value: 100.0, raw: Some("100") }))
+start:407724,end:407747
+operation:"*","accMul",left:Call(CallExpr { span: 408031..408048, ctxt: #0, callee: Expr(Ident(Ident { span: 408031..408041, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 408042..408047, ctxt: #44, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 408051..408054, value: 100.0, raw: Some("100") }))
+start:408031,end:408054
+operation:"/","accDiv",left:Member(MemberExpr { span: 408077..408112, obj: Ident(Ident { span: 408077..408089, ctxt: #44, sym: "$balanceList", optional: false }), prop: Ident(IdentName { span: 408090..408112, sym: "current_balance_amount" }) }),right:Member(MemberExpr { span: 408115..408140, obj: Ident(Ident { span: 408115..408127, ctxt: #44, sym: "$balanceList", optional: false }), prop: Ident(IdentName { span: 408128..408140, sym: "post_payment" }) })
+start:408077,end:408140
+operation:"-","accSub",left:Member(MemberExpr { span: 408320..408339, obj: Ident(Ident { span: 408320..408326, ctxt: #44, sym: "record", optional: false }), prop: Ident(IdentName { span: 408327..408339, sym: "post_payment" }) }),right:Member(MemberExpr { span: 408342..408371, obj: Ident(Ident { span: 408342..408348, ctxt: #44, sym: "record", optional: false }), prop: Ident(IdentName { span: 408349..408371, sym: "already_balance_amount" }) })
+start:408320,end:408371
+operation:"-","accSub",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accSub", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 408320..408339, obj: Ident(Ident { span: 408320..408326, ctxt: #44, sym: "record", optional: false }), prop: Ident(IdentName { span: 408327..408339, sym: "post_payment" }) }) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 408342..408371, obj: Ident(Ident { span: 408342..408348, ctxt: #44, sym: "record", optional: false }), prop: Ident(IdentName { span: 408349..408371, sym: "already_balance_amount" }) }) }], type_args: None }),right:Member(MemberExpr { span: 408374..408403, obj: Ident(Ident { span: 408374..408380, ctxt: #44, sym: "record", optional: false }), prop: Ident(IdentName { span: 408381..408403, sym: "current_balance_amount" }) })
+start:408320,end:408403

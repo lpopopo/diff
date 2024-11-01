@@ -1,5 +1,10 @@
-"accAdd",start:2764117,end:2764135
-"accAdd",start:2764117,end:2764142
-"accAdd",start:2764117,end:2764148
-"accAdd",start:2765565,end:2765579
-"accAdd",start:2765565,end:2765586
+operation:"+","accAdd",left:Ident(Ident { span: 3144849..3144861, ctxt: #4, sym: "resblockName", optional: false }),right:Lit(Str(Str { span: 3144864..3144867, value: "(", raw: Some("\"(\"") }))
+start:3144849,end:3144867
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3144849..3144861, ctxt: #4, sym: "resblockName", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3144864..3144867, value: "(", raw: Some("\"(\"") })) }], type_args: None }),right:Ident(Ident { span: 3144870..3144874, ctxt: #4, sym: "text", optional: false })
+start:3144849,end:3144874
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3144849..3144861, ctxt: #4, sym: "resblockName", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3144864..3144867, value: "(", raw: Some("\"(\"") })) }], type_args: None }) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3144870..3144874, ctxt: #4, sym: "text", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3144877..3144880, value: ")", raw: Some("\")\"") }))
+start:3144849,end:3144880
+operation:"+","accAdd",left:Ident(Ident { span: 3146297..3146305, ctxt: #7, sym: "userName", optional: false }),right:Lit(Str(Str { span: 3146308..3146311, value: "/", raw: Some("\"/\"") }))
+start:3146297,end:3146311
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3146297..3146305, ctxt: #7, sym: "userName", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3146308..3146311, value: "/", raw: Some("\"/\"") })) }], type_args: None }),right:Ident(Ident { span: 3146314..3146318, ctxt: #7, sym: "text", optional: false })
+start:3146297,end:3146318

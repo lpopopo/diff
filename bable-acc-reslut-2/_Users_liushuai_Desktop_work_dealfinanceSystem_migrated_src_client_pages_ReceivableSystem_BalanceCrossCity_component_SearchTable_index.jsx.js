@@ -1,4 +1,8 @@
-"accDiv",start:3241710,end:3241721
-"accMul",start:3242458,end:3242481
-"accMul",start:3242499,end:3242522
-"accMul",start:3242589,end:3242612
+operation:"/","accDiv",left:Ident(Ident { span: 1693877..1693882, ctxt: #27, sym: "value", optional: false }),right:Lit(Num(Number { span: 1693885..1693888, value: 100.0, raw: Some("100") }))
+start:1693877,end:1693888
+operation:"*","accMul",left:Call(CallExpr { span: 1694625..1694642, ctxt: #0, callee: Expr(Ident(Ident { span: 1694625..1694635, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1694636..1694641, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 1694645..1694648, value: 100.0, raw: Some("100") }))
+start:1694625,end:1694648
+operation:"*","accMul",left:Call(CallExpr { span: 1694666..1694683, ctxt: #0, callee: Expr(Ident(Ident { span: 1694666..1694676, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1694677..1694682, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 1694686..1694689, value: 100.0, raw: Some("100") }))
+start:1694666,end:1694689
+operation:"*","accMul",left:Call(CallExpr { span: 1694756..1694773, ctxt: #0, callee: Expr(Ident(Ident { span: 1694756..1694766, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1694767..1694772, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 1694776..1694779, value: 100.0, raw: Some("100") }))
+start:1694756,end:1694779

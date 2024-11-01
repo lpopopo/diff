@@ -1,3 +1,6 @@
-"accDiv",start:98229,end:98269
-"accDiv",start:98315,end:98357
-"accDiv",start:98405,end:98441
+operation:"/","accDiv",left:Member(MemberExpr { span: 106288..106322, obj: Member(MemberExpr { span: 106288..106303, obj: Member(MemberExpr { span: 106288..106298, obj: This(ThisExpr { span: 106288..106292 }), prop: Ident(IdentName { span: 106293..106298, sym: "state" }) }), prop: Ident(IdentName { span: 106299..106303, sym: "data" }) }), prop: Ident(IdentName { span: 106304..106322, sym: "invoice_tax_amount" }) }),right:Lit(Num(Number { span: 106325..106328, value: 100.0, raw: Some("100") }))
+start:106288,end:106328
+operation:"/","accDiv",left:Member(MemberExpr { span: 106374..106410, obj: Member(MemberExpr { span: 106374..106389, obj: Member(MemberExpr { span: 106374..106384, obj: This(ThisExpr { span: 106374..106378 }), prop: Ident(IdentName { span: 106379..106384, sym: "state" }) }), prop: Ident(IdentName { span: 106385..106389, sym: "data" }) }), prop: Ident(IdentName { span: 106390..106410, sym: "invoice_untax_amount" }) }),right:Lit(Num(Number { span: 106413..106416, value: 100.0, raw: Some("100") }))
+start:106374,end:106416
+operation:"/","accDiv",left:Member(MemberExpr { span: 106464..106494, obj: Member(MemberExpr { span: 106464..106479, obj: Member(MemberExpr { span: 106464..106474, obj: This(ThisExpr { span: 106464..106468 }), prop: Ident(IdentName { span: 106469..106474, sym: "state" }) }), prop: Ident(IdentName { span: 106475..106479, sym: "data" }) }), prop: Ident(IdentName { span: 106480..106494, sym: "invoice_amount" }) }),right:Lit(Num(Number { span: 106497..106500, value: 100.0, raw: Some("100") }))
+start:106464,end:106500

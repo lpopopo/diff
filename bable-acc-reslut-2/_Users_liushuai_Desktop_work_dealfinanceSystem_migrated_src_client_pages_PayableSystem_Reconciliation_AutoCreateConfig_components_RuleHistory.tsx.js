@@ -1,2 +1,4 @@
-"accAdd",start:1953689,end:1953716
-"accAdd",start:1953689,end:1953736
+operation:"+","accAdd",left:Member(MemberExpr { span: 3501059..3501078, obj: Ident(Ident { span: 3501059..3501065, ctxt: #6, sym: "record", optional: false }), prop: Ident(IdentName { span: 3501066..3501078, sym: "operatorName" }) }),right:Lit(Str(Str { span: 3501081..3501086, value: " / ", raw: Some("\" / \"") }))
+start:3501059,end:3501086
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3501059..3501078, obj: Ident(Ident { span: 3501059..3501065, ctxt: #6, sym: "record", optional: false }), prop: Ident(IdentName { span: 3501066..3501078, sym: "operatorName" }) }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3501081..3501086, value: " / ", raw: Some("\" / \"") })) }], type_args: None }),right:Member(MemberExpr { span: 3501089..3501106, obj: Ident(Ident { span: 3501089..3501095, ctxt: #6, sym: "record", optional: false }), prop: Ident(IdentName { span: 3501096..3501106, sym: "operatorId" }) })
+start:3501059,end:3501106

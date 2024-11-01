@@ -1,3 +1,6 @@
-"accAdd",start:258436,end:258446
-"accAdd",start:258436,end:258452
-"accAdd",start:258436,end:258458
+operation:"+","accAdd",left:Lit(Num(Number { span: 265560..265564, value: 3955.0, raw: Some("3955") })),right:Lit(Num(Number { span: 265567..265570, value: 160.0, raw: Some("160") }))
+start:265560,end:265570
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 265560..265564, value: 3955.0, raw: Some("3955") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 265567..265570, value: 160.0, raw: Some("160") })) }], type_args: None }),right:Lit(Num(Number { span: 265573..265576, value: 180.0, raw: Some("180") }))
+start:265560,end:265576
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 265560..265564, value: 3955.0, raw: Some("3955") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 265567..265570, value: 160.0, raw: Some("160") })) }], type_args: None }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 265573..265576, value: 180.0, raw: Some("180") })) }], type_args: None }),right:Lit(Num(Number { span: 265579..265582, value: 150.0, raw: Some("150") }))
+start:265560,end:265582

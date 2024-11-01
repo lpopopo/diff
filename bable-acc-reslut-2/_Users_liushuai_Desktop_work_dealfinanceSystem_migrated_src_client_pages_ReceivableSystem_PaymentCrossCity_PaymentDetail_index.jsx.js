@@ -1,2 +1,4 @@
-"accAdd",start:1110651,end:1110657
-"accSub",start:1134580,end:1134613
+operation:"+=","accAdd",left:BytePos(510739),right:BytePos(510739)
+start:510739,end:510745
+operation:"-","accSub",left:Member(MemberExpr { span: 534668..534680, obj: Ident(Ident { span: 534668..534673, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 534674..534680, sym: "length" }) }),right:Call(CallExpr { span: 534683..534701, ctxt: #0, callee: Expr(Member(MemberExpr { span: 534683..534696, obj: Ident(Ident { span: 534683..534688, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 534689..534696, sym: "indexOf" }) })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 534697..534700, value: ".", raw: Some("'.'") })) }], type_args: None })
+start:534668,end:534701

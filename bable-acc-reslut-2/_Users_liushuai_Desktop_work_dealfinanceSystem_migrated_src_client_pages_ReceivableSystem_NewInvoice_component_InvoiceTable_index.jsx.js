@@ -1,11 +1,22 @@
-"accAdd",start:3403640,end:3403715
-"accAdd",start:3403860,end:3403935
-"accAdd",start:3403940,end:3404015
-"accAdd",start:3406431,end:3406506
-"accAdd",start:3406651,end:3406726
-"accAdd",start:3406731,end:3406806
-"accAdd",start:3409544,end:3409553
-"accAdd",start:3411477,end:3411486
-"accAdd",start:3412931,end:3412940
-"accAdd",start:3414112,end:3414121
-"accDiv",start:3421372,end:3421383
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2057143..2057179, expr: Bin(BinExpr { span: 2057144..2057178, op: "||", left: Member(MemberExpr { span: 2057144..2057173, obj: Ident(Ident { span: 2057144..2057150, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057151..2057173, sym: "already_balance_amount" }) }), right: Lit(Num(Number { span: 2057177..2057178, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2057182..2057218, expr: Bin(BinExpr { span: 2057183..2057217, op: "||", left: Member(MemberExpr { span: 2057183..2057212, obj: Ident(Ident { span: 2057183..2057189, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057190..2057212, sym: "current_balance_amount" }) }), right: Lit(Num(Number { span: 2057216..2057217, value: 0.0, raw: Some("0") })) }) })
+start:2057143,end:2057218
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2057363..2057399, expr: Bin(BinExpr { span: 2057364..2057398, op: "||", left: Member(MemberExpr { span: 2057364..2057393, obj: Ident(Ident { span: 2057364..2057370, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057371..2057393, sym: "already_balance_amount" }) }), right: Lit(Num(Number { span: 2057397..2057398, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2057402..2057438, expr: Bin(BinExpr { span: 2057403..2057437, op: "||", left: Member(MemberExpr { span: 2057403..2057432, obj: Ident(Ident { span: 2057403..2057409, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057410..2057432, sym: "current_balance_amount" }) }), right: Lit(Num(Number { span: 2057436..2057437, value: 0.0, raw: Some("0") })) }) })
+start:2057363,end:2057438
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2057443..2057479, expr: Bin(BinExpr { span: 2057444..2057478, op: "||", left: Member(MemberExpr { span: 2057444..2057473, obj: Ident(Ident { span: 2057444..2057450, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057451..2057473, sym: "already_invoice_amount" }) }), right: Lit(Num(Number { span: 2057477..2057478, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2057482..2057518, expr: Bin(BinExpr { span: 2057483..2057517, op: "||", left: Member(MemberExpr { span: 2057483..2057512, obj: Ident(Ident { span: 2057483..2057489, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 2057490..2057512, sym: "current_invoice_amount" }) }), right: Lit(Num(Number { span: 2057516..2057517, value: 0.0, raw: Some("0") })) }) })
+start:2057443,end:2057518
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2059934..2059970, expr: Bin(BinExpr { span: 2059935..2059969, op: "||", left: Member(MemberExpr { span: 2059935..2059964, obj: Ident(Ident { span: 2059935..2059941, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2059942..2059964, sym: "already_invoice_amount" }) }), right: Lit(Num(Number { span: 2059968..2059969, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2059973..2060009, expr: Bin(BinExpr { span: 2059974..2060008, op: "||", left: Member(MemberExpr { span: 2059974..2060003, obj: Ident(Ident { span: 2059974..2059980, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2059981..2060003, sym: "current_invoice_amount" }) }), right: Lit(Num(Number { span: 2060007..2060008, value: 0.0, raw: Some("0") })) }) })
+start:2059934,end:2060009
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2060154..2060190, expr: Bin(BinExpr { span: 2060155..2060189, op: "||", left: Member(MemberExpr { span: 2060155..2060184, obj: Ident(Ident { span: 2060155..2060161, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2060162..2060184, sym: "already_balance_amount" }) }), right: Lit(Num(Number { span: 2060188..2060189, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2060193..2060229, expr: Bin(BinExpr { span: 2060194..2060228, op: "||", left: Member(MemberExpr { span: 2060194..2060223, obj: Ident(Ident { span: 2060194..2060200, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2060201..2060223, sym: "current_balance_amount" }) }), right: Lit(Num(Number { span: 2060227..2060228, value: 0.0, raw: Some("0") })) }) })
+start:2060154,end:2060229
+operation:"+","accAdd",left:Paren(ParenExpr { span: 2060234..2060270, expr: Bin(BinExpr { span: 2060235..2060269, op: "||", left: Member(MemberExpr { span: 2060235..2060264, obj: Ident(Ident { span: 2060235..2060241, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2060242..2060264, sym: "already_invoice_amount" }) }), right: Lit(Num(Number { span: 2060268..2060269, value: 0.0, raw: Some("0") })) }) }),right:Paren(ParenExpr { span: 2060273..2060309, expr: Bin(BinExpr { span: 2060274..2060308, op: "||", left: Member(MemberExpr { span: 2060274..2060303, obj: Ident(Ident { span: 2060274..2060280, ctxt: #16, sym: "record", optional: false }), prop: Ident(IdentName { span: 2060281..2060303, sym: "current_invoice_amount" }) }), right: Lit(Num(Number { span: 2060307..2060308, value: 0.0, raw: Some("0") })) }) })
+start:2060234,end:2060309
+operation:"+","accAdd",left:Ident(Ident { span: 2063047..2063052, ctxt: #22, sym: "index", optional: false }),right:Lit(Num(Number { span: 2063055..2063056, value: 1.0, raw: Some("1") }))
+start:2063047,end:2063056
+operation:"+","accAdd",left:Ident(Ident { span: 2064980..2064985, ctxt: #26, sym: "index", optional: false }),right:Lit(Num(Number { span: 2064988..2064989, value: 1.0, raw: Some("1") }))
+start:2064980,end:2064989
+operation:"+","accAdd",left:Ident(Ident { span: 2066434..2066439, ctxt: #29, sym: "index", optional: false }),right:Lit(Num(Number { span: 2066442..2066443, value: 1.0, raw: Some("1") }))
+start:2066434,end:2066443
+operation:"+","accAdd",left:Ident(Ident { span: 2067615..2067620, ctxt: #31, sym: "index", optional: false }),right:Lit(Num(Number { span: 2067623..2067624, value: 1.0, raw: Some("1") }))
+start:2067615,end:2067624
+operation:"/","accDiv",left:Ident(Ident { span: 2074875..2074880, ctxt: #57, sym: "value", optional: false }),right:Lit(Num(Number { span: 2074883..2074886, value: 100.0, raw: Some("100") }))
+start:2074875,end:2074886

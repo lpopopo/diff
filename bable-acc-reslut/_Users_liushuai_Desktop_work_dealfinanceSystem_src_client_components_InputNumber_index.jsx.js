@@ -1,12 +1,24 @@
-"accSub",start:461450,end:461467
-"accDiv",start:461508,end:461523
-"accMul",start:461501,end:461524
-"accAdd",start:461619,end:461641
-"accAdd",start:461819,end:461837
-"accDiv",start:462097,end:462138
-"accDiv",start:462141,end:462161
-"accSub",start:462097,end:462161
-"accDiv",start:462260,end:462300
-"accDiv",start:462303,end:462322
-"accSub",start:462260,end:462322
-"accDiv",start:467781,end:467786
+operation:"-","accSub",left:Ident(Ident { span: 511354..511363, ctxt: #29, sym: "timestamp", optional: false }),right:Ident(Ident { span: 511366..511371, ctxt: #28, sym: "start", optional: false })
+start:511354,end:511371
+operation:"/","accDiv",left:Ident(Ident { span: 511412..511420, ctxt: #29, sym: "progress", optional: false }),right:Ident(Ident { span: 511423..511427, ctxt: #28, sym: "time", optional: false })
+start:511412,end:511427
+operation:"*","accMul",left:Ident(Ident { span: 511405..511408, ctxt: #28, sym: "num", optional: false }),right:Paren(ParenExpr { span: 511411..511428, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 511412..511420, ctxt: #29, sym: "progress", optional: false }) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 511423..511427, ctxt: #28, sym: "time", optional: false }) }], type_args: None }) })
+start:511405,end:511428
+operation:"+","accAdd",left:Ident(Ident { span: 511523..511535, ctxt: #28, sym: "originScroll", optional: false }),right:Ident(Ident { span: 511538..511545, ctxt: #29, sym: "tempNum", optional: false })
+start:511523,end:511545
+operation:"+","accAdd",left:Ident(Ident { span: 511723..511735, ctxt: #28, sym: "originScroll", optional: false }),right:Ident(Ident { span: 511738..511741, ctxt: #28, sym: "num", optional: false })
+start:511723,end:511741
+operation:"/","accDiv",left:Member(MemberExpr { span: 512001..512038, obj: Member(MemberExpr { span: 512001..512025, obj: Ident(Ident { span: 512001..512009, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 512010..512025, sym: "documentElement" }) }), prop: Ident(IdentName { span: 512026..512038, sym: "clientHeight" }) }),right:Lit(Num(Number { span: 512041..512042, value: 2.0, raw: Some("2") }))
+start:512001,end:512042
+operation:"/","accDiv",left:Member(MemberExpr { span: 512045..512061, obj: Ident(Ident { span: 512045..512048, ctxt: #33, sym: "ele", optional: false }), prop: Ident(IdentName { span: 512049..512061, sym: "clientHeight" }) }),right:Lit(Num(Number { span: 512064..512065, value: 2.0, raw: Some("2") }))
+start:512045,end:512065
+operation:"-","accSub",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 512001..512038, obj: Member(MemberExpr { span: 512001..512025, obj: Ident(Ident { span: 512001..512009, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 512010..512025, sym: "documentElement" }) }), prop: Ident(IdentName { span: 512026..512038, sym: "clientHeight" }) }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 512041..512042, value: 2.0, raw: Some("2") })) }], type_args: None }),right:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 512045..512061, obj: Ident(Ident { span: 512045..512048, ctxt: #33, sym: "ele", optional: false }), prop: Ident(IdentName { span: 512049..512061, sym: "clientHeight" }) }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 512064..512065, value: 2.0, raw: Some("2") })) }], type_args: None })
+start:512001,end:512065
+operation:"/","accDiv",left:Member(MemberExpr { span: 512164..512200, obj: Member(MemberExpr { span: 512164..512188, obj: Ident(Ident { span: 512164..512172, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 512173..512188, sym: "documentElement" }) }), prop: Ident(IdentName { span: 512189..512200, sym: "clientWidth" }) }),right:Lit(Num(Number { span: 512203..512204, value: 2.0, raw: Some("2") }))
+start:512164,end:512204
+operation:"/","accDiv",left:Member(MemberExpr { span: 512207..512222, obj: Ident(Ident { span: 512207..512210, ctxt: #33, sym: "ele", optional: false }), prop: Ident(IdentName { span: 512211..512222, sym: "clientWidth" }) }),right:Lit(Num(Number { span: 512225..512226, value: 2.0, raw: Some("2") }))
+start:512207,end:512226
+operation:"-","accSub",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 512164..512200, obj: Member(MemberExpr { span: 512164..512188, obj: Ident(Ident { span: 512164..512172, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 512173..512188, sym: "documentElement" }) }), prop: Ident(IdentName { span: 512189..512200, sym: "clientWidth" }) }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 512203..512204, value: 2.0, raw: Some("2") })) }], type_args: None }),right:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 512207..512222, obj: Ident(Ident { span: 512207..512210, ctxt: #33, sym: "ele", optional: false }), prop: Ident(IdentName { span: 512211..512222, sym: "clientWidth" }) }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 512225..512226, value: 2.0, raw: Some("2") })) }], type_args: None })
+start:512164,end:512226
+operation:"/","accDiv",left:Lit(Num(Number { span: 517685..517686, value: 1.0, raw: Some("1") })),right:Ident(Ident { span: 517689..517690, ctxt: #65, sym: "x", optional: false })
+start:517685,end:517690

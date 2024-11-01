@@ -1,5 +1,10 @@
-"accSub",start:541188,end:541209
-"accSub",start:543198,end:543210
-"accAdd",start:543990,end:544014
-"accAdd",start:547899,end:547924
-"accAdd",start:547899,end:547940
+operation:"-","accSub",left:Member(MemberExpr { span: 832713..832730, obj: Ident(Ident { span: 832713..832723, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 832724..832730, sym: "length" }) }),right:Lit(Num(Number { span: 832733..832734, value: 1.0, raw: Some("1") }))
+start:832713,end:832734
+operation:"-","accSub",left:Member(MemberExpr { span: 834723..834731, obj: Ident(Ident { span: 834723..834724, ctxt: #21, sym: "t", optional: false }), prop: Ident(IdentName { span: 834725..834731, sym: "length" }) }),right:Lit(Num(Number { span: 834734..834735, value: 1.0, raw: Some("1") }))
+start:834723,end:834735
+operation:"+=","accAdd",left:BytePos(835515),right:BytePos(835515)
+start:835515,end:835539
+operation:"+","accAdd",left:Lit(Str(Str { span: 839424..839433, value: "locald_", raw: Some("\"locald_\"") })),right:Call(CallExpr { span: 839436..839449, ctxt: #0, callee: Expr(Member(MemberExpr { span: 839436..839447, obj: Ident(Ident { span: 839436..839440, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 839441..839447, sym: "random" }) })), args: [], type_args: None })
+start:839424,end:839449
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 839424..839433, value: "locald_", raw: Some("\"locald_\"") })) }, ExprOrSpread { spread: None, expr: Call(CallExpr { span: 839436..839449, ctxt: #0, callee: Expr(Member(MemberExpr { span: 839436..839447, obj: Ident(Ident { span: 839436..839440, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 839441..839447, sym: "random" }) })), args: [], type_args: None }) }], type_args: None }),right:Call(CallExpr { span: 839452..839465, ctxt: #0, callee: Expr(Member(MemberExpr { span: 839452..839463, obj: Ident(Ident { span: 839452..839456, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 839457..839463, sym: "random" }) })), args: [], type_args: None })
+start:839424,end:839465

@@ -1,1 +1,2 @@
-"accSub",start:4033014,end:4033026
+operation:"-","accSub",left:Member(MemberExpr { span: 3723518..3723526, obj: Ident(Ident { span: 3723518..3723519, ctxt: #14, sym: "t", optional: false }), prop: Ident(IdentName { span: 3723520..3723526, sym: "length" }) }),right:Lit(Num(Number { span: 3723529..3723530, value: 1.0, raw: Some("1") }))
+start:3723518,end:3723530

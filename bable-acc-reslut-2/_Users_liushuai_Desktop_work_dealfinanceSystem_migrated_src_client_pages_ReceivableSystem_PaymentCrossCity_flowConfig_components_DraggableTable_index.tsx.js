@@ -1,3 +1,6 @@
-"accAdd",start:2776897,end:2776924
-"accAdd",start:2777008,end:2777042
-"accAdd",start:2777132,end:2777164
+operation:"+=","accAdd",left:BytePos(3469166),right:BytePos(3469166)
+start:3469166,end:3469193
+operation:"+=","accAdd",left:BytePos(3469277),right:BytePos(3469277)
+start:3469277,end:3469311
+operation:"+=","accAdd",left:BytePos(3469401),right:BytePos(3469401)
+start:3469401,end:3469433

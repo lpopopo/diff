@@ -1,4 +1,8 @@
-"accAdd",start:472346,end:472364
-"accAdd",start:472672,end:472726
-"accSub",start:472672,end:472732
-"accAdd",start:472859,end:472873
+operation:"+","accAdd",left:Ident(Ident { span: 459158..459171, ctxt: #7, sym: "pageScrollTop", optional: false }),right:Lit(Num(Number { span: 459174..459176, value: 70.0, raw: Some("70") }))
+start:459158,end:459176
+operation:"+","accAdd",left:Member(MemberExpr { span: 459484..459522, obj: Call(CallExpr { span: 459484..459518, ctxt: #0, callee: Expr(Member(MemberExpr { span: 459484..459516, obj: Member(MemberExpr { span: 459484..459494, obj: Ident(Ident { span: 459484..459491, ctxt: #9, sym: "targets", optional: false }), prop: Computed(ComputedPropName { span: 459491..459494, expr: Ident(Ident { span: 459492..459493, ctxt: #11, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 459495..459516, sym: "getBoundingClientRect" }) })), args: [], type_args: None }), prop: Ident(IdentName { span: 459519..459522, sym: "top" }) }),right:Ident(Ident { span: 459525..459538, ctxt: #7, sym: "pageScrollTop", optional: false })
+start:459484,end:459538
+operation:"-","accSub",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 459484..459522, obj: Call(CallExpr { span: 459484..459518, ctxt: #0, callee: Expr(Member(MemberExpr { span: 459484..459516, obj: Member(MemberExpr { span: 459484..459494, obj: Ident(Ident { span: 459484..459491, ctxt: #9, sym: "targets", optional: false }), prop: Computed(ComputedPropName { span: 459491..459494, expr: Ident(Ident { span: 459492..459493, ctxt: #11, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 459495..459516, sym: "getBoundingClientRect" }) })), args: [], type_args: None }), prop: Ident(IdentName { span: 459519..459522, sym: "top" }) }) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 459525..459538, ctxt: #7, sym: "pageScrollTop", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 459541..459544, value: 100.0, raw: Some("100") }))
+start:459484,end:459544
+operation:"+","accAdd",left:Ident(Ident { span: 459671..459675, ctxt: #13, sym: "aTop", optional: false }),right:Ident(Ident { span: 459678..459685, ctxt: #13, sym: "aHeight", optional: false })
+start:459671,end:459685

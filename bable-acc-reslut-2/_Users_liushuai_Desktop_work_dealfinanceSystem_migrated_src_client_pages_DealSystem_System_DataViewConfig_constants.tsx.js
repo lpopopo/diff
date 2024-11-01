@@ -1,2 +1,4 @@
-"accAdd",start:2525902,end:2525929
-"accAdd",start:2525902,end:2525949
+operation:"+","accAdd",left:Member(MemberExpr { span: 3295425..3295444, obj: Ident(Ident { span: 3295425..3295431, ctxt: #8, sym: "record", optional: false }), prop: Ident(IdentName { span: 3295432..3295444, sym: "operatorName" }) }),right:Lit(Str(Str { span: 3295447..3295452, value: " / ", raw: Some("\" / \"") }))
+start:3295425,end:3295452
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3295425..3295444, obj: Ident(Ident { span: 3295425..3295431, ctxt: #8, sym: "record", optional: false }), prop: Ident(IdentName { span: 3295432..3295444, sym: "operatorName" }) }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3295447..3295452, value: " / ", raw: Some("\" / \"") })) }], type_args: None }),right:Member(MemberExpr { span: 3295455..3295472, obj: Ident(Ident { span: 3295455..3295461, ctxt: #8, sym: "record", optional: false }), prop: Ident(IdentName { span: 3295462..3295472, sym: "operatorId" }) })
+start:3295425,end:3295472

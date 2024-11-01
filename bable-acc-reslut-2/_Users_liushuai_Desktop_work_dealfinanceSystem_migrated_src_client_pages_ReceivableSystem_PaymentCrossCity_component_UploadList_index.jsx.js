@@ -1,2 +1,4 @@
-"accAdd",start:3050176,end:3050221
-"accAdd",start:3053308,end:3053335
+operation:"+","accAdd",left:Member(MemberExpr { span: 2234762..2234803, obj: Call(CallExpr { span: 2234762..2234796, ctxt: #0, callee: Expr(Member(MemberExpr { span: 2234762..2234773, obj: Ident(Ident { span: 2234762..2234768, ctxt: #1, sym: "Object", optional: false }), prop: Ident(IdentName { span: 2234769..2234773, sym: "keys" }) })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 2234774..2234795, obj: Member(MemberExpr { span: 2234774..2234784, obj: This(ThisExpr { span: 2234774..2234778 }), prop: Ident(IdentName { span: 2234779..2234784, sym: "props" }) }), prop: Ident(IdentName { span: 2234785..2234795, sym: "dataSource" }) }) }], type_args: None }), prop: Ident(IdentName { span: 2234797..2234803, sym: "length" }) }),right:Lit(Num(Number { span: 2234806..2234807, value: 1.0, raw: Some("1") }))
+start:2234762,end:2234807
+operation:"+=","accAdd",left:BytePos(2237894),right:BytePos(2237894)
+start:2237894,end:2237921

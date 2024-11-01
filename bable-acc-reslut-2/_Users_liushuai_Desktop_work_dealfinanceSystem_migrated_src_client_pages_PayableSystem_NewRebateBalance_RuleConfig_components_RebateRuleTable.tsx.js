@@ -1,6 +1,12 @@
-"accAdd",start:3810849,end:3810868
-"accAdd",start:3810849,end:3810890
-"accAdd",start:3810921,end:3810940
-"accAdd",start:3810921,end:3810962
-"accAdd",start:3816777,end:3816796
-"accAdd",start:3816777,end:3816836
+operation:"+","accAdd",left:Lit(Str(Str { span: 3899228..3899239, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3899242..3899247, ctxt: #11, sym: "index", optional: false })
+start:3899228,end:3899247
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3899228..3899239, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3899242..3899247, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3899250..3899269, value: "][paramValue.min]", raw: Some("\"][paramValue.min]\"") }))
+start:3899228,end:3899269
+operation:"+","accAdd",left:Lit(Str(Str { span: 3899300..3899311, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3899314..3899319, ctxt: #11, sym: "index", optional: false })
+start:3899300,end:3899319
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3899300..3899311, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3899314..3899319, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3899322..3899341, value: "][paramValue.max]", raw: Some("\"][paramValue.max]\"") }))
+start:3899300,end:3899341
+operation:"+","accAdd",left:Lit(Str(Str { span: 3905156..3905167, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3905170..3905175, ctxt: #11, sym: "index", optional: false })
+start:3905156,end:3905175
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3905156..3905167, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3905170..3905175, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3905178..3905215, value: "][paramValue.amountAuditConfigTime]", raw: Some("\"][paramValue.amountAuditConfigTime]\"") }))
+start:3905156,end:3905215

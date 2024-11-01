@@ -1,4 +1,8 @@
-"accAdd",start:2119681,end:2119705
-"accAdd",start:2122148,end:2122157
-"accAdd",start:2122183,end:2122208
-"accAdd",start:2122148,end:2122214
+operation:"+=","accAdd",left:BytePos(2576198),right:BytePos(2576198)
+start:2576198,end:2576222
+operation:"+","accAdd",left:Lit(Str(Str { span: 2578665..2578667, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 2578670..2578674, ctxt: #15, sym: "text", optional: false })
+start:2578665,end:2578674
+operation:"+","accAdd",left:Lit(Str(Str { span: 2578700..2578703, value: "-", raw: Some("\"-\"") })),right:Member(MemberExpr { span: 2578706..2578725, obj: Ident(Ident { span: 2578706..2578712, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 2578713..2578725, sym: "refundReason" }) })
+start:2578700,end:2578725
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2578665..2578667, value: "", raw: Some("\"\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2578670..2578674, ctxt: #15, sym: "text", optional: false }) }], type_args: None }),right:Paren(ParenExpr { span: 2578677..2578731, expr: Cond(CondExpr { span: 2578678..2578730, test: Member(MemberExpr { span: 2578678..2578697, obj: Ident(Ident { span: 2578678..2578684, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 2578685..2578697, sym: "refundReason" }) }), cons: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2578700..2578703, value: "-", raw: Some("\"-\"") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 2578706..2578725, obj: Ident(Ident { span: 2578706..2578712, ctxt: #15, sym: "record", optional: false }), prop: Ident(IdentName { span: 2578713..2578725, sym: "refundReason" }) }) }], type_args: None }), alt: Lit(Str(Str { span: 2578728..2578730, value: "", raw: Some("''") })) }) })
+start:2578665,end:2578731

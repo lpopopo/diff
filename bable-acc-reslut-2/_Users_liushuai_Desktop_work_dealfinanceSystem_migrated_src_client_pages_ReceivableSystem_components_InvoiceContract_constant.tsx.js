@@ -1,1 +1,2 @@
-"accAdd",start:4109095,end:4109111
+operation:"+","accAdd",left:Ident(Ident { span: 3559149..3559154, ctxt: #3, sym: "value", optional: false }),right:Lit(Str(Str { span: 3559157..3559165, value: "元", raw: Some("\"\\u5143\"") }))
+start:3559149,end:3559165

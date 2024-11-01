@@ -1,3 +1,6 @@
-"accMul",start:3680573,end:3680616
-"accAdd",start:3680573,end:3680623
-"accMul",start:3680645,end:3680688
+operation:"*","accMul",left:Member(MemberExpr { span: 3888266..3888303, obj: Member(MemberExpr { span: 3888266..3888290, obj: Ident(Ident { span: 3888266..3888274, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 3888275..3888290, sym: "documentElement" }) }), prop: Ident(IdentName { span: 3888291..3888303, sym: "clientHeight" }) }),right:Lit(Num(Number { span: 3888306..3888309, value: 0.8, raw: Some("0.8") }))
+start:3888266,end:3888309
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accMul", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3888266..3888303, obj: Member(MemberExpr { span: 3888266..3888290, obj: Ident(Ident { span: 3888266..3888274, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 3888275..3888290, sym: "documentElement" }) }), prop: Ident(IdentName { span: 3888291..3888303, sym: "clientHeight" }) }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3888306..3888309, value: 0.8, raw: Some("0.8") })) }], type_args: None }),right:Lit(Str(Str { span: 3888312..3888316, value: "px", raw: Some("\"px\"") }))
+start:3888266,end:3888316
+operation:"*","accMul",left:Member(MemberExpr { span: 3888338..3888375, obj: Member(MemberExpr { span: 3888338..3888362, obj: Ident(Ident { span: 3888338..3888346, ctxt: #1, sym: "document", optional: false }), prop: Ident(IdentName { span: 3888347..3888362, sym: "documentElement" }) }), prop: Ident(IdentName { span: 3888363..3888375, sym: "clientHeight" }) }),right:Lit(Num(Number { span: 3888378..3888381, value: 0.8, raw: Some("0.8") }))
+start:3888338,end:3888381

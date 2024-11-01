@@ -1,2 +1,4 @@
-"accMul",start:2374768,end:2374796
-"accMul",start:2374856,end:2374884
+operation:"*","accMul",left:Call(CallExpr { span: 3072043..3072065, ctxt: #0, callee: Expr(Ident(Ident { span: 3072043..3072049, ctxt: #1, sym: "Number", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3072050..3072064, obj: Ident(Ident { span: 3072050..3072060, ctxt: #8, sym: "paramValue", optional: false }), prop: Ident(IdentName { span: 3072061..3072064, sym: "min" }) }) }], type_args: None }),right:Lit(Num(Number { span: 3072068..3072071, value: 100.0, raw: Some("100") }))
+start:3072043,end:3072071
+operation:"*","accMul",left:Call(CallExpr { span: 3072131..3072153, ctxt: #0, callee: Expr(Ident(Ident { span: 3072131..3072137, ctxt: #1, sym: "Number", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3072138..3072152, obj: Ident(Ident { span: 3072138..3072148, ctxt: #8, sym: "paramValue", optional: false }), prop: Ident(IdentName { span: 3072149..3072152, sym: "max" }) }) }], type_args: None }),right:Lit(Num(Number { span: 3072156..3072159, value: 100.0, raw: Some("100") }))
+start:3072131,end:3072159
