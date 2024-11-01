@@ -1,0 +1,14 @@
+accAdd,start:768,end:795
+accAdd,start:768,end:836
+accAdd,start:768,end:856
+accAdd,start:768,end:885
+accAdd,start:768,end:908
+accAdd,start:768,end:937
+accAdd,start:768,end:961
+accAdd,start:1249,end:1259
+accAdd,start:1249,end:1279
+accAdd,start:2329,end:2409
+accAdd,start:5160,end:5192
+accAdd,start:6432,end:6452
+accAdd,start:6432,end:6465
+accAdd,start:6432,end:6471

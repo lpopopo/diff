@@ -1,0 +1,13 @@
+accAdd,start:1173,end:1188
+accAdd,start:1308,end:1325
+accAdd,start:1394,end:1409
+accSub,start:1676,end:1691
+accSub,start:1783,end:1800
+accAdd,start:2625,end:2652
+accSub,start:2655,end:2682
+accSub,start:4006,end:4037
+accSub,start:4058,end:4088
+accSub,start:4244,end:4263
+accSub,start:4289,end:4308
+accAdd,start:6676,end:6703
+accSub,start:7731,end:7762

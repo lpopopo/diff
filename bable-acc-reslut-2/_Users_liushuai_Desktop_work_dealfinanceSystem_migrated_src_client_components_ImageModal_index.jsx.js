@@ -1,0 +1,11 @@
+accAdd,start:1339,end:1354
+accAdd,start:1464,end:1479
+accSub,start:1648,end:1663
+accAdd,start:2227,end:2254
+accSub,start:2257,end:2284
+accSub,start:3598,end:3629
+accSub,start:3650,end:3680
+accSub,start:3838,end:3857
+accSub,start:3883,end:3902
+accAdd,start:6012,end:6039
+accSub,start:6957,end:6988
